@@ -25,7 +25,7 @@
 	color: white;
 	padding: 5px;
 	position: absolute;
-	bottom: 0;
+	bottom: 5px;
 	left: 5px;
 	margin: 0;
 }
@@ -99,4 +99,23 @@
 	margin: 0 20px;
 	position: relative;
 	top: 20px;
+}
+
+h3 {
+	margin-top: 0px;
+	padding: 10px;
+}
+
+h4 {
+	margin: 0 12px;
+}
+
+.content-par {
+	font-size: 13px;
+	margin: 25px;
+	padding: 5px;
+}
+
+.divider {
+	
 }
