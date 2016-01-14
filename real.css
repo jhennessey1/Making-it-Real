@@ -61,7 +61,7 @@
 .main-content {
 	margin: auto;
 	background-color: #e6e6e6;
-	height: 100vh;
+	height: 255vh;
 	position: relative;
 	width: 450px;
 }
@@ -101,7 +101,7 @@
 	top: 20px;
 }
 
-h3 {
+.header {
 	margin-top: 0px;
 	padding: 10px;
 }
@@ -117,5 +117,150 @@ h4 {
 }
 
 .divider {
-	
+	width: 100%;
+	margin: 25px auto;
+	height: 0px;
+	border: 1px solid gray;
+	opacity: .75;
+}
+
+.table {
+	border: 1px solid black;
+	font-size: 13px;
+	border-collapse: collapse;
+}
+
+.table td, th {
+	border: 1px solid black;
+}
+
+.table div {
+	background-color: #6699ff;
+	color: white;
+	width: 100%;
+	border-radius: 3px;
+	text-align: center;
+}
+
+.table th {
+	background-color: #999999;
+	font-weight: bold;
+	text-align: left;
+	height: 25px;
+	padding: 5px;
+}
+
+.table td {
+	text-align: center;
+	padding: 4px;
+}
+
+.table tr td:nth-child(2) {
+	width: 70%;
+	text-align: left;
+}
+
+.table tr td:nth-child(1) {
+	width: 5%;
+}
+
+.business-model {
+	font-size: 12px;
+}
+
+.business-model > li {
+	padding: 10px 5px;
+}
+
+.signage {
+	font-size: 12px;
+	color: #999999;
+}
+
+.signage span {
+	font-weight: bold;
+}
+
+.divider-text {
+	color: #999999;
+	font-size: 12px;
+	margin: 0 auto;
+	background-color: #e6e6e6;
+	display: inline;
+	padding: 0 5px;
+}
+.text-box {
+	width: 100px;
+	margin-top: -10px;
+	margin-left: 20px;
+}
+
+.contact-info {
+	text-align: right;
+	font-size: 12px;
+	margin-top: 20px;
+}
+
+.entry-field {
+	border: 1px solid #999999;
+	width: 80%;
+	background-color: white;
+}
+
+.category {
+	height: 25px;
+}
+
+.comment-box {
+	height: 150px;
+	width: 100%;
+	background-color: white;
+	border: 1px solid black;
+}
+
+.submit-button {
+	width: 100%;
+	height: 50px;
+	background-color: red;
+	color: white;
+	text-align: center;
+	margin-top: 25px;
+	line-height: 50px;
+	border-radius: 3px;
+}
+
+.submit-button:hover {
+	background-color: #ff751a;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+}
+
+.comment {
+	margin-top: 25px;
+}
+
+.prof-pic {
+	float: left;
+	padding:0 15px 0 0;
+}
+
+.username {
+	font-size: 15px;
+}
+
+.date {
+	font-size: 12px;
+	color: #999999;
+	font-style: italic;
+}
+
+.comment-text {
+	clear: left;
+	font-size: 13px;
+}
+
+.reply {
+	margin: 0 20px;
+	border-left: 1px solid #999999;
+	padding-left: 25px;
 }
