@@ -61,7 +61,7 @@
 .main-content {
 	margin: auto;
 	background-color: #e6e6e6;
-	height: 255vh;
+	height: 305vh;
 	position: relative;
 	width: 450px;
 }
@@ -73,7 +73,7 @@
 	position: absolute;
 	width: 20%;
 	top: 250px;
-	right: 40px;
+	right: 4.16%;
 }
 
 .side-bar-navbar {
